@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(152, 153, 153, 0.132);
+    margin:0;
+}
+
+.main{
+    display:flex;
+    justify-content: start;
+    
+}
+
+
+
+.menu-text{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.menu-text p a{
+    color:black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    
+}
+.menu-text p a:hover{
+    border-bottom: 2px solid rgb(56, 56, 56);
+}
+
+
+.menu{
+    height: 1200px;
+    width: 25%;
+    background-color: #2e86aba2;
+}
+.profile{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.user{
+    border:2px solid #2e86aba2;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 50px;
+}
+.informations p{
+    font-size:25px ;
+    font-family:'Arial Narrow Bold', sans-serif;
+    
+}
+
+.info{
+    justify-content: center;
+    display:flex;
+    
+}
+.bold{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+hr{
+    margin: 30px;
+}
+
+
+.bio{
+margin-top: 50px;
+cursor:auto;
+padding: 10px;
+background-color: #2e86aba2;
+border-radius: 60px;
+border: 1px solid saddlebrown;
+transition: border 100ms;
+}
+.bio:hover{
+    border: 2px dotted saddlebrown;
+}
+.bio p {
+margin: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
