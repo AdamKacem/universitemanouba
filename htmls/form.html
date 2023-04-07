@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@500;600&family=Tajawal:wght@500&family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@500;600&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/form.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="header">
+        <div class="hat-title">
+        <img class="hat" src="../images/hat.png" >
+        <p class="title">Université de Manouba</p>
+        </div>
+        <div class="links">
+        
+        <ul>
+            <li><a href="index.html"> Acceuil</a></li>
+            <li><a href="act.html"> Actualité</a></li>
+            <li><a href="form.html"> Déclaration</a></li>
+            
+
+        </ul>
+        
+        </div>
+        <a href="profile.html"><img class="user" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png">
+        </a>
+    </div>
+
+    <main>
+
+        
+        <div style="color:black;margin-bottom: 10px;">
+            "Parce que votre opinion est notre priorité"
+        </div>
+
+        <form action="">
+            <div class="upper">
+
+            
+            
+            <div class="questions">
+            <div class="question-line">
+                <div class="question-part">
+                  <label for="prenom">Prénom</label><br>
+                  <input type="text" id="prenom" name="prenom" value="" required>
+                </div>
+              
+                <div class="question-part">
+                  <label for="nom">Nom</label><br>
+                  <input type="text" id="nom" name="nom" value="" required>
+                </div>
+              </div>
+              
+              <div class="question-line">
+                <div class="question-part">
+                  <label for="cin">CIN</label><br>
+                  <input type="text" id="cin" name="cin" value="" pattern="^[01]\d{7}$" required>
+                </div>
+              
+                <div class="question-part">
+                  <label for="email">Email</label><br>
+                  <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+                </div>
+              </div>
+              
+
+        <div class="question-line">
+            <div class="question-part">
+                <label for="fname">Votre niveau d'étude</label><br>
+                <div>
+                         <input type="radio" id="licence" name="education" value="Licence" required>
+                         <label for="licence">Licence</label><br>
+                         <input type="radio" id="master" name="education" value="Master">
+                        <label for="master">Master</label><br>
+                        <input type="radio" id="ingenieur" name="education" value="Ingenieur">
+                        <label for="ingenieur">Ingénieur</label>
+                </div>
+            </div>
+
+
+            <div class="question-part">
+                <label for="select-licence-level">Votre niveau d'étude</label>
+
+                <select name="licence-level" id="select-licence-level" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">1</option>
+                    <option value="cat">2</option>
+                    <option value="hamster">3</option>
+                </select>
+
+                
+            </div>
+
+
+        </div>
+        </div>
+            <div class="report">
+                <input type="text" placeholder=" Quelle est votre question ?">
+            </div>
+
+
+        </div>
+        <div class="btn-div">
+        <button type="submit" value="Envoyer">Envoyer</button>
+
+        </div>
+
+            
+
+
+
+    
+        </form>
+    </main>
+
+    <footer>
+        <p>ADAM KACEM</p>
+        <p>@Copyright Manouba</p>
+        <p>2022-2023</p>
+    </footer>
+</body>
+</html>

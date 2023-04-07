@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://gestproject.eu/wp-content/uploads/2016/11/23227045_1838318069530193_1169912034_n-960x675.jpg);
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+  }
+  
+  .login-box {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:500px ;
+    height:270px;
+    position: absolute;
+    top:40%;
+    background-color: #fff;
+    max-width: 500px;
+    margin: -50px 0 0 -50px;
+    left:40%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+ 
+  
+  .input-box {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  } 
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  button {
+    background-color: #4286f4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    vertical-align: center;
+    height: 55px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 500px;
+  }
+  
+  button:hover {
+    background-color: #3179ba;
+    
+  }
+
+
+a{  font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+  
